@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Love Calculator bases on SPAN Algorithm">
+    <meta property="og:image" content="https://lh3.googleusercontent.com/proxy/CeWezp7QZ6xgwV-0rgSoz5giOUOqOK_cXc7VLlENNLMaCgaGpq1Nldtv2LrB3_PKE5oF5iPlgGl3IiMZD4Kp9hr6HJtT5UU" />
+    <title>Love Calculator</title>
+
+    <meta property="og:title" content="Love Calculator" />
+<meta property="og:description" content="Love Calculator" />
+<meta property="og:url" content="https://whispering-badlands-82460.herokuapp.com/" />
+
+
+<link href="assets/fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+    
+          <div class="logo float-left">
+            <h1 class="text-light" style="text-transform: none;"><a href="index.ejs"><span>Love Calculator</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          </div>
+    
+    
+        </div>
+    
+    
+          
+    
+      </header><!-- End Header -->
+
+      
+          <div class="container" id="form" style="margin: 0 auto; justify-content: center; margin-top: 40px;width:80vw;">
+            <br>
+              <h2 id="heading" style="text-align: center;">Love Calculator*</h2>
+              <br>
+              <form action="/evaluate" method="POST">
+              <div class="input">
+                  <img class="img-fluid" src="assets/like.png">
+                  <input type="text" placeholder="Your Name" name="a" required>
+                  <br>
+                  <img class="img-fluid" src="assets/like.png">
+                  <select class="drop" name="d1" required>
+                      <option>Select Gender</option>
+                      <option style="color:#f093fb ;">Male</option>
+                      <option style="color:#f093fb ;">Female</option>
+
+                  </select>
+              </div>
+              <br>
+              <div class="input">
+                <img class="img-fluid" src="assets/two-hearts.png">
+                <input type="text" placeholder="Your Partner's Name" name="b" required>
+                <br>
+                <img class="img-fluid" src="assets/two-hearts.png">
+                <select class="drop" name="d2" re>
+                    <option>Select Gender</option>
+                    <option style="color:#f093fb ;">Male</option>
+                    <option style="color:#f093fb ;">Female</option>
+
+                </select>
+            </div>
+            <br>
+            <div class="button" style="text-align: center;">
+                <button type="submit" id="btn" >Calculate</button>
+            </div>
+            
+              </form>
+              <br>
+              <br>
+          </div>
+          <br>
+          <br>
+          <div id="notice" style="text-align: center;color: black;font-family: 'poppins';">
+            <p>*This is not a fake Love Calculator, results are calculated by <strong>SPAN Algorithm</strong> and your information is never leaked.</p>
+          </div>
+          
+
+
+
+
+    
+
+          <div class="footer" style="bottom: 0px;">
+            <div  class="fixed-bottom" style="padding: 20.5px 0;">
+                &copy; Created By <strong><em><a href="https://www.linkedin.com/in/vansh-sethi-13522517a/" target="_blank" style="cursor:pointer;color: white;">Vansh Sethi</a></em></strong>
+        </div>
+        </div>
+
+
+
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

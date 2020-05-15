@@ -1,0 +1,112 @@
+body{
+   
+    background-image: url('https://www.lovecalculator.club/img/pink-bg5.jpg');
+    background-size: cover;
+}
+#header {
+    height: 70px;
+    transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: #fa7ebd;
+    padding: 10px 0;
+    z-index: 997;
+  }
+  
+  #header.header-scrolled {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  #header .logo h1 {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  #header .logo h1 a, #header .logo h1 a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Indie Flower', cursive;
+  }
+  #heading{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  @media screen and (min-width: 600px) {
+    
+    #form
+    {
+        width: 60%;
+    }
+        
+  }
+ 
+  #form
+        {
+            z-index: 9999;
+            background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+          border-radius: 10px;
+          box-shadow: 1px 6px 20px 0px #c6c6c6;
+        }
+    
+  input
+  {
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 12px 20px;
+    margin: 15px 0px;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:white;
+    
+    opacity: 1; /* Firefox */
+  }
+  .drop
+  {
+    width: 80%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 8px 10px;
+    margin: 10px 0px;
+  }
+
+  #btn
+  {
+    align-self: center;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+
+  #btn:hover{
+      background-color: white;
+      color:#f093fb ;
+      font-weight: bold;
+  }
+  
+  .footer{
+      width: 100%;
+      height: 70px;
+      text-align: center;
+      color: white;
+      font-family: 'Poppins';
+      font-size: large;
+      background-color: #d72638;
+      justify-items: center;
+    align-items: center;
+  }
+  
